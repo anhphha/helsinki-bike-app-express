@@ -9,7 +9,8 @@
     "dev": "nodemon src/index.ts | bunyan",
     "dev:debug": "npm run dev --inspect",
     "test": "jest --watch",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "lint":"eslint src/**/*.ts"
   },
   "keywords": [],
   "author": "",
