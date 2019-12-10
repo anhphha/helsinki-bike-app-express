@@ -1,15 +1,14 @@
-import IResource from "typings/IResource";
+import Resource from 'typings/IResource';
 
-let movies: object[] = []
+const movies: object[] = [];
 
-export default class MoviesApi implements IResource {
-
-  create(data: object) {
-    movies.push(data)
-    return data
+export default class MoviesApi implements Resource {
+  create(data: object): object {
+    movies.push(data);
+    return data;
   }
 
-  findMany() {
-    return movies
+  findMany(): object[] {
+    return movies;
   }
 }

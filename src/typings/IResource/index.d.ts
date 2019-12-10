@@ -1,4 +1,4 @@
-export default interface IResource {
-  create(data: any): any
-  findMany(): any[]
+export default interface Resource {
+  create(data: object): object;
+  findMany(): object[];
 }
