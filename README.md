@@ -1,5 +1,6 @@
 ## Node Typescript Jest Starter
-### This is a starter project for developing and testing node app with Typescript and Jest. You can find an article about it [here](http://amenallah.com/node-js-typescript-jest-starter/)
+
+### I got inspired from Amenallah's blog post and extend a bit. Please check original blog [here](http://amenallah.com/node-js-typescript-jest-starter/)
 
 Steps to use:
 - Clone or download repo
