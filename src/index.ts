@@ -4,6 +4,8 @@ import * as bodyParser from 'body-parser';
 import MoviesApi from './api/MoviesApi';
 import logger from './services.logger';
 
+const PORT = 8934;
+
 const app = express();
 const moviesApi = new MoviesApi();
 
@@ -17,6 +19,6 @@ app.get('/movies', (_, res: express.Response) => {
   res.json(moviesApi.findMany());
 });
 
-app.listen(5000, () => {
-  logger.info('server started on port 5000');
+app.listen(PORT, () => {
+  logger.info('server started on port ' + PORT);
 });
